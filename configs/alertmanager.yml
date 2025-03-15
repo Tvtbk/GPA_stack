@@ -1,0 +1,13 @@
+route:
+  receiver: 'telegram'
+  routes:    
+  - receiver: 'telegram'
+    group_wait: 10s
+    matchers:
+    - severity=~"warning|critical"
+
+receivers:
+- name: 'telegram'
+  telegram_configs:
+  - bot_token: "7568202556:AAH9hKu0iOy__v4sLPSLZq841-6s8xgce4o"
+    chat_id: -4706295052
