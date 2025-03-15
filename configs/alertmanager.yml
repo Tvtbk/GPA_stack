@@ -9,5 +9,5 @@ route:
 receivers:
 - name: 'telegram'
   telegram_configs:
-  - bot_token: "7568202556:AAH9hKu0iOy__v4sLPSLZq841-6s8xgce4o"
-    chat_id: -4706295052
+  - bot_token: ""
+    chat_id: -12345

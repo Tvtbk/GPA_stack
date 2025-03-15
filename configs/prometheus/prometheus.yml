@@ -10,7 +10,6 @@ alerting:
 
 rule_files:
 
-	# Наш файл с правилами уведомлений 
   - "alert_rules.yml"
 
 scrape_configs:
@@ -20,4 +19,4 @@ scrape_configs:
 
   - job_name: "ficus_exporter"
     static_configs:
-      - targets: ["85.193.85.180:9100:9100"]
+      - targets: ["<input_address>:9100"]
